@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization Failed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .message {
+            background-color: #FF5733;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="message" id="failureMessage">
+        <p id="messageText">Authorization Failed, error: </p>
+    </div>
+    <script>
+        var userLanguage = navigator.language || navigator.userLanguage;
+        var messages = {
+            'en': 'Authorization Failed, error: %1',
+            'zh-CN': '授权失败，错误信息：%1'
+        };
+        var messageText = document.getElementById('messageText');
+        if (messages[userLanguage]) {
+            messageText.textContent = messages[userLanguage];
+        }
+    </script>
+</body>
+
+</html>

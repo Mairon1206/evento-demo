@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "ms-vscode.cmake-tools",
+    "Slint.slint"
+  ]
+}
