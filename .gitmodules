@@ -1,0 +1,3 @@
+[submodule "lib/sast-link-cxx-sdk"]
+	path = lib/sast-link-cxx-sdk
+	url = https://github.com/Serein207/sast-link-cxx-sdk.git
