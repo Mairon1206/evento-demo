@@ -19,12 +19,11 @@ GUI框架选用[Slint](https://slint.dev/), 网络部分选用Boost库，核心�
 
 与[SAST LINK](https://github.com/NJUPT-SAST/sast-link-backend)交互的逻辑由[sast-link-cxx-sdk](https://github.com/Serein207/sast-link-cxx-sdk)完成。
 
-克隆仓库请使用以下命令：
-
 > [!WARNING]
 >
-> 这仍然是一个早期版本，并非最终版，项目结构可能会变动。
+> 这仍然是一个早期版本，并非最终版，项目结构可能会变动
 
+克隆仓库请使用以下命令：
 ```shell
 git clone --recursive https://github.com/Mairon1206/evento-demo.git
 ```
@@ -37,7 +36,16 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 - Rust 工具链
 - Vcpkg
 
-本项目使用Vcpkg进行跨平台包管理，主要依赖项:
+项目使用Vcpkg进行跨平台包管理，主要依赖项:
 
 - [Boost.Beast](https://github.com/boostorg/beast)
+- [Boost.Url](https://github.com/boostorg/url)
+- [Boost.System](https://github.com/boostorg/system)
+- [OpenSSL](https://github.com/openssl/openssl)
+- [Spdlog](https://github.com/gabime/spdlog)
+- [Nlohmann-Json](https://github.com/nlohmann/json)
+- [GoogleTest](https://github.com/google/googletest)
+
+GUI框架:
+
 - [Slint](https://github.com/slint-ui/slint)
