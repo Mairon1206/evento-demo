@@ -33,10 +33,10 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 
 - 支持C++20或更高版本的编译器
 - CMake 3.21 或更高版本
-- Rust 工具链
-- Vcpkg
+- Rust 基本工具链
+- Vcpkg （请从官方仓库中clone下来按照指示配置并加入环境变量，不推荐其他途径，如AUR）
 
-项目使用Vcpkg进行跨平台包管理，主要依赖项:
+项目使用Vcpkg管理以下依赖项（配置好vcpkg后，cmake会自行执行vcpkg install安装）:
 
 - [Boost.Beast](https://github.com/boostorg/beast)
 - [Boost.Url](https://github.com/boostorg/url)
@@ -46,6 +46,6 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 - [Nlohmann-Json](https://github.com/nlohmann/json)
 - [GoogleTest](https://github.com/google/googletest)
 
-GUI框架:
+GUI框架（构建规则已在CMakeLists中明细）:
 
 - [Slint](https://github.com/slint-ui/slint)
