@@ -34,7 +34,7 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 - 支持C++20或更高版本的编译器
 - CMake 3.21 或更高版本
 - Rust 基本工具链
-- Vcpkg （请从官方仓库中clone下来按照指示配置并加入环境变量，不推荐其他途径，如AUR）
+- Vcpkg （<a href="./HowToUseVcpkg.md">配置方法</a>）
 
 项目使用Vcpkg管理以下依赖项（配置好vcpkg后，cmake会自行执行vcpkg install安装）:
 
