@@ -23,6 +23,11 @@ add_subdirectory(src/Network)
 
 add_executable(demo src/main.cc)
 
+# hide cmdline in Release Mode for MSVC
+if (MSVC)
+  set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS_RELEASE "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+endif()
+
 target_link_libraries(
     demo PRIVATE
     spdlog::spdlog
