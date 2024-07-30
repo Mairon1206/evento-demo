@@ -31,7 +31,7 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 ```
 
 ## 环境与依赖
-要想构建该项目，请确保你已配置好以下环境:
+确保你已配置好以下环境:
 
 - 支持C++20或更高版本的编译器
 - CMake 3.21 或更高版本
