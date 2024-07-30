@@ -35,7 +35,7 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 
 - 支持C++20或更高版本的编译器
 - CMake 3.21 或更高版本
-- Rust 基本工具链
+- Rust 工具链
 - Vcpkg （<a href="./HowToUseVcpkg.md">配置方法</a>）
 
 项目依赖:
