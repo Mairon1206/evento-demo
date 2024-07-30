@@ -13,7 +13,7 @@
 
 ## 简介
 
-### SAST Evento项目现已开始重构：(https://github.com/NJUPT-SAST/sast-evento)
+### SAST Evento现已开始重构：(https://github.com/NJUPT-SAST/sast-evento)
 
 Evento Demo是为重构[SAST Evento Desktop](https://github.com/NJUPT-SAST/SAST-Evento-Desktop)所准备的一个最小开发环境，包括项目大纲。
 
