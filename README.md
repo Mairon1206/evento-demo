@@ -13,6 +13,8 @@
 
 ## 简介
 
+### SAST Evento项目现已开始重构：(https://github.com/NJUPT-SAST/sast-evento)
+
 Evento Demo是为重构[SAST Evento Desktop](https://github.com/NJUPT-SAST/SAST-Evento-Desktop)所准备的一个最小开发环境，包括项目大纲。
 
 GUI框架选用[Slint](https://slint.dev/), 网络部分选用Boost库，核心为[Boost.Beast](https://www.boost.org/doc/libs/1_85_0/libs/beast/doc/html/index.html)。
