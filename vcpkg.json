@@ -2,32 +2,25 @@
     "name": "demo",
     "dependencies": [
         {
-            "name": "boost-system",
-            "version>=": "1.84.0"
+            "name": "boost-system"
         },
         {
-            "name": "boost-beast",
-            "version>=": "1.84.0"
+            "name": "boost-beast"
         },
         {
-            "name": "boost-url",
-            "version>=": "1.84.0"
+            "name": "boost-url"
         },
         {
-            "name": "openssl",
-            "version>=": "3.3.0"
+            "name": "openssl"
         },
         {
-            "name": "nlohmann-json",
-            "version>=": "3.11.3"
+            "name": "nlohmann-json"
         },
         {
-            "name": "spdlog",
-            "version>=": "1.14.1"
+            "name": "spdlog"
         },
         {
-            "name": "gtest",
-            "version>=": "1.14.0"
+            "name": "gtest"
         }
     ]
 }
