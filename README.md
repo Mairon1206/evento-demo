@@ -38,7 +38,7 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 - Rust 基本工具链
 - Vcpkg （<a href="./HowToUseVcpkg.md">配置方法</a>）
 
-项目使用Vcpkg管理以下依赖项（配置好vcpkg后，cmake会自行执行vcpkg install安装）:
+项目依赖:
 
 - [Boost.Beast](https://github.com/boostorg/beast)
 - [Boost.Url](https://github.com/boostorg/url)
@@ -47,7 +47,4 @@ git clone --recursive https://github.com/Mairon1206/evento-demo.git
 - [Spdlog](https://github.com/gabime/spdlog)
 - [Nlohmann-Json](https://github.com/nlohmann/json)
 - [GoogleTest](https://github.com/google/googletest)
-
-GUI框架（构建规则已在CMakeLists中明细）:
-
 - [Slint](https://github.com/slint-ui/slint)
